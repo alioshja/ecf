@@ -4,7 +4,9 @@ error_reporting(E_ALL);
 //je fait une inclusion de fichier qui permetra de récupérer les info session().
 require('script-de-gestion-de-connection.php');
 require_once('pdo.php');
-$accountType = $userr['accounttype'];
+
+$connected = $_SESSION['user'];
+$accountType = $connected['accounttype'];
 /*jeffectu des vérifications qui vont permettre de lancer une session valide si elle ne c'est pas lancé
                 et qui vont charger le bandeau de modération adapté au type de compte connecté.*/
 if (session_status() === PHP_SESSION_NONE) {
