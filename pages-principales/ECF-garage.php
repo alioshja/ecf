@@ -1,6 +1,7 @@
 <?php
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+session_start();
 //je fait une inclusion de fichier qui permetra de récupérer les info session().
 require('script-de-gestion-de-connection.php');
 require_once('pdo.php');

@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once('script-de-gestion-de-connection.php');
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,8 +16,8 @@
 
         <form method="post" action="script-de-gestion-de-connection.php">
 
-            <labe for="email">email</label>
-        <input class="input" type="email" name="email" id="Email">
+            <label for="email">email</label>
+        <input class="input" type="email" name="mail" id="mail">
 <br>
             <label for="password">mot de passe</label>
         <input class="input" type="password" name="mot-de-passe" id="Mot-de-passe">

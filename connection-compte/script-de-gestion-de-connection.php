@@ -4,20 +4,21 @@
 
     //je défini mes variables en précisant quelles font partis de ma future fonction pour la sécurité que je défini plus tard.
 
-$email  = ($_POST['email']);
-$passWord = ($_POST['mot-de-passe']);
-
+    
+return $email= ($_POST['mail']);
+return $passWord = ($_POST['mot-de-passe']);
+    
     //fonction de sécurité pour enlever les saisi de balise d'échappement et espaces.
 
-    htmlspecialchars($email && $passWord);
-    trim($email && $passWord);
+    $donnes = htmlspecialchars($email && $passWord) ;
+    trim($donnes) ;
     //stripslashes($email);
     //stripslashes($passWord);
    
     /*je stoque mes nouvelles valeurs dans de nouvelles var qui serviront a 
     sauvegarder les valeurs appres leurs soumissions.*/
-$mail = $email;
-$pass = $passWord;
+$mail = $donnes[$email];
+$pass = $donnes[$passWord];
 
     //préparation de mes requette sql.
 
