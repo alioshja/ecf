@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" lang="fr">
+        <meta content="page de modération pour ajouter des voitures occasions ou neuves.">
+        <link href="stylecheetEcf.css" rel="stylesheet">
+    </head>
+    <body>
+        <form method="post" action="script d'ajout de voiture.php">
+    <br>
+    <h1 class="FBlack">Ajoutez une voiture.</h1>
+            <label for="la voiture">nom, marque, modèle, couleur</label>
+            <br>
+        <input type="text" name="la voiture" placeholder="peugeot 206 hdi blanche" required>
+    <br>
+    <br>
+
+        <label for="image">photo de la voiture ici:</label>
+        <br>
+        <br>
+        <input type="file" name="image" placeholder="photo de la voiture" required>
+    <br>
+    <br>
+            <label for="description">Description de la voiture:</label>
+            <br>
+        <textarea name="description" placeholder="peugeot 206 blanche neuve siege en cuir abs pneu michelin..." required></textarea>
+    <br>
+    <br>
+            <label for="type">Type de l'offre</label>
+            <br>
+        <input type="text" name="type" placeholder="occasion ou neuve" required>
+    <br>
+    <br>
+            <button class="button" type="submit" name="button">envoyer</button>
+        </form>
+    
+    </body>
+</html>

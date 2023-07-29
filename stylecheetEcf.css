@@ -1,0 +1,227 @@
+body{
+    margin:0px;
+    border:0px;
+    background-color: rgb(41, 41, 41);
+    text-align: center;
+    }
+
+/*sélecteur général sur la balise <body> pour enlever les marges et colorer le fond de la page web et un text aligne sur le centre pour centrer le texte.*/
+
+.nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(255, 238, 0);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
+    box-shadow: 1vh 1vh 1vh rgb(19, 19, 19);
+    }
+
+/*je crée une classe .nav pour colorer en jaune le background et styliser la bare de navigation, jai également ajouté du padding pour aérer la bare de navigation
+ et utilisé du border radius pour les 2angles du bas de la boite afin de les arrondirs ainsi que la valeur none sur le text décoration pour enlever le soulignement.
+ je donne également une ombre pour contraster encore plus.*/
+
+nav>a {
+    background-color: rgb(32, 32, 32);
+    text-decoration: none;
+    color:white;
+    border:solid white 2px;
+    border-radius: 1vw;
+    padding: 1vw 1vh;
+    font-size: 1em;
+    }
+
+/*j'utilise un sélecteur complexe pour séléctionner les balises <a> dans la bare de navigation et les enfermer dans des boites avec une bordure et une couleur de background afin de les faires ressortir.*/
+
+h1 {
+    font-size: 2em;
+    color: white;
+}
+/*sélécteurs général sur la balise h1 afin de redéfinir sa taille et sa couleur pour contraster avec celle du backgroud-color, je lui donne aussi une ombre de texte.*/
+
+p {
+    color:white;
+    font-size: 1em;
+    text-shadow: 1vh 1vh 1vh rgba(31, 31, 31, 0.658);
+    }
+
+/*je donne la couleur blanche a tout les paragraphes de la page web pour contraster avec la couleur du body.*/
+
+span {
+    display: block;
+    background-color: rgba(85, 85, 85, 0.527);
+    width: 90vw;
+    
+    margin:auto;
+    border: solid 1px  rgb(255, 238, 0);
+    border-radius: 1vh;
+    box-shadow:1vh 1vh 1vh rgb(19, 19, 19);
+    margin-bottom: 3vh;
+    opacity: 0.7;
+    padding-bottom:2vh;
+    }
+
+/*je défini une boite pour styliser la page en donnant une couleur au background, une bordure, et un arrondis dans la balise span crée dans ce but 
+avec une opacité qui permet de voir l'image de fond a traver la boite.*/
+
+.img1 {
+    
+    height: 25vh;
+    margin-inline: 3vw;
+    border-radius: 1vh;
+    margin-bottom: 3vh;
+    box-shadow: 1vh 1vh 1vh rgb(26, 26, 26);
+    border: 1px solid rgb(255, 238, 0);
+    }
+.img2 {
+
+    height: 30vh;
+    border-radius: 1vh;
+    margin-bottom: 1vh;
+    box-shadow: 1vh 1vh 1vh rgb(26, 26, 26);
+    border: 1px solid rgb(255, 238, 0);
+}
+/*je défini deux classes pour avoir 2 tailles d'images diférentes.*/
+
+
+span>a {
+    color:rgb(255, 238, 0);
+}
+
+/*je craie un sélecteur sur les balises enfant a dans le span pour colorer les liens.*/
+
+
+form {
+    display: block;
+    border: 1px solid grey;
+    background-color: white;
+    color: black;
+    flex-direction:column;
+    width: 70vw;
+    margin: auto;
+    border-radius: 1vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    
+}
+
+/*Je défini le style de mon form grace a un sélecteur de type*/
+
+form >img{
+    width: 4vh;
+    
+}
+
+/*Je défini la taille des images représentant les logos des réseaux sociaux ou garage parrot et présent*/
+
+form > p {
+    color: black;
+}
+
+/*je cible tout les <p> enfant de mes form pour les coloriers*/
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 1vh 1vh 4vh grey;
+    height: 7vh;
+    width:30vw;
+    border-radius: 2vh;
+    opacity: 0.5;
+    
+}
+
+/*je crai une classe pour styliser mes imputs*/ 
+
+.button{
+    margin-top: 4vh;
+    max-height: 5vh;
+    width: 10vw;
+    height:5vh;
+    background-color: grey;
+    border-radius: 1vh;
+}
+
+/*Je crai une classe pour styliser mes <button>*/
+
+.FBlack{
+    color:black;
+    margin-top: 0%;
+    margin-bottom: 6vh;
+    
+}
+
+/*petite classe ayant pour seule fonction la coloration des fonts*/
+
+span>h2
+{
+    color:white;
+}
+
+/*sélecteur sur les h2 enfant de span*/
+
+
+ footer {
+    display:block;
+    background-color: black;
+    border: 1px solid white;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    color: rgb(255, 238, 0);
+    height:30vh ;
+    width: 100%;
+    text-align: center;
+ }
+
+ /*sélecteur pour styliser le footer*/
+
+ .politic {
+    background-color:black;
+    color:white;
+    display:inline;
+ }
+
+/*classe pour styliser la page contenant la politique de confidentialité.*/
+
+ .AW {
+    
+    color:white;
+ }
+
+/*petite classe pour colorer les font en blanc si besoin*/
+
+ .connected{
+    display:flex;
+    float: inline-start;
+    width:90%;
+    height:7vh;
+    border:solid rgb(255, 238, 0) 2px;
+    border-radius: 1vh 1vh;
+    margin:auto;
+    padding:1vh 1vw;
+    background-color:rgb(85, 85, 85);
+    justify-content: space-evenly;
+    margin-top:6vw;
+ }
+
+ /*Je stylise la bare qui s'affiche après connection*/
+
+ .boxconnected{
+    border:solid rgb(255, 238, 0) 2px;
+    background-color: rgb(32, 32, 32);
+    border-radius:1vh 1vh;
+    color:white;
+    padding: 1vw;
+    text-align:center;
+ }
+
+ /*Cette classe stylise les boites bans le bandeau de connection*/
+
+ textarea {
+    height: 15vh;
+    width:40vw;
+ }
+
+ /*sélecteur sur les chanp textarea pour les redimensionner*/
