@@ -5,7 +5,7 @@
     <head>
         <meta charset="utf-8" lang="fr">
         <meta content="bandeau contenant les fonctionnalitées en fonction des droits(ouvriers).">
-        <link href="stylecheetEcf.css" rel="stylesheet">
+        <link href="../stylecheetEcf.css" rel="stylesheet">
     </head>
     <body>
         <header class="connected">
@@ -18,5 +18,4 @@
 </html>
 
 <?php
-require_once 'script-de-gestion-de-connection.php';
 ?>

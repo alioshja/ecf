@@ -5,7 +5,7 @@ require_once('script-de-gestion-de-connection.php');
 <!DOCTYPE html>
 <html>
     <head>
-    <link href="stylecheetEcf.css" rel="stylesheet">
+    <link href="../stylecheetEcf.css" rel="stylesheet">
         <title>formulaire de connection.</title>
         <meta charset="utf-8">
         <meta lang="fr" content="form de connection garage parrot.">

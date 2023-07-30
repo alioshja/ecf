@@ -5,17 +5,17 @@
         <title>formulaire d'inscription.</title>
         <meta charset="utf-8">
         <meta lang="fr" content="formulaire d'incription au site garage parrot.">
-        <link href="stylecheetEcf.css" rel="stylesheet">
+        <link href="../stylecheetEcf.css" rel="stylesheet">
     </head>
     <body>
 
         <h1>inscription:</h1>
 
         <form method="post" action="script-de-gestion-d'inscription.php">
-            <img src="images-ECF\facebook.svg">
-            <img src="images-ECF\google.svg">
-            <img src="images-ECF\instagram.svg">
-            <img src="images-ECF\snapchat.svg">
+            <img src="../images-ECF/facebook.svg">
+            <img src="../images-ECF/google.svg">
+            <img src="../images-ECF/instagram.svg">
+            <img src="../images-ECF/snapchat.svg">
 
     <p>veuillez saisir vos informations personnelles.</p>
             

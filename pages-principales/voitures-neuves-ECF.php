@@ -1,5 +1,5 @@
 <?php
-require_once ('script-de-gestion-de-connection.php');
+require_once ('../connection-compte/script-de-gestion-de-connection.php');
 ?>
 <!DOCTYPE html>
     <html>
@@ -8,7 +8,7 @@ require_once ('script-de-gestion-de-connection.php');
     <meta charset="UTF-8">
     <meta lang="fr" content="page recherche voiture neuve en vente garage vincent parrot">
     <title>garage vincent parrot</title>
-    <link href="stylecheetEcf.css" rel="stylesheet">
+    <link href="../stylecheetEcf.css" rel="stylesheet">
 </head>
 <body>
 

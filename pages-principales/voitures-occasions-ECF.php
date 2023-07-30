@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta lang="fr" content="page recherche voiture occasion en vente garage vincent parrot">
     <title>garage vincent parrot</title>
-    <link href="stylecheetEcf.css" rel="stylesheet">
+    <link href="../stylecheetEcf.css" rel="stylesheet">
 </head>
 <body>
 
@@ -22,7 +22,7 @@
     </nav>
 
 <span>
-    <form method="post">
+    <form method="post" action="../php/sript-d'implementation-de-la-bare-de-recherche.php">
         <input type="search" name="rechercheOccasion" placeholder="Modèle ou marques...">
         <input type="submit" name="Envoyer" id="validerLaRecherche">
     </form>

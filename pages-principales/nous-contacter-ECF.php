@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta lang="fr" content="page de contact du garage parrot">
-        <link href="stylecheetEcf.css" rel="stylesheet">
+        <link href="../stylecheetEcf.css" rel="stylesheet">
     </head>
 
     <body>

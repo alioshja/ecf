@@ -2,6 +2,7 @@
 <head>
     <meta charset="utf-8" lang="fr">
     <meta content="politiques de confidentialité">
+    <link href="../stylesheetEcf.css" rel="stylesheet">
 </head>
 <html>
 <footer>

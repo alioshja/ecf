@@ -3,8 +3,8 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 session_start();
 //je fait une inclusion de fichier qui permetra de récupérer les info session().
-require('script-de-gestion-de-connection.php');
-require_once('pdo.php');
+require('../connection-compte/script-de-gestion-de-connection.php');
+require_once('../connection-compte/pdo.php');
 
 $connected = $_SESSION['user'];
 $accountType = $connected['accounttype'];
@@ -34,7 +34,7 @@ if (isset($_SESSION['users'])){
         <meta charset="UTF-8">
         <meta lang="fr" content="page vitrine garage vincent parrot">
         <title>garage vincent parrot</title>
-        <link href="stylecheetEcf.css" rel="stylesheet">
+        <link href="../stylecheetEcf.css" rel="stylesheet">
 </head>
 
 <body>
@@ -59,16 +59,16 @@ if (isset($_SESSION['users'])){
         <!--présentation du garage de ses services et son équipe, ainsi que des images pour ilustrer.-->
 
         <h1>Garage parrot et son expertise profesionnelle.</h1>
-        <img class="img1" src="images-ECF\image.png">
-        <img class="img1" src="images-ECF\ob_cef774_100-8960.jpeg.jpg">
+        <img class="img1" src="../images-ECF/image.png">
+        <img class="img1" src="../images-ECF/ob_cef774_100-8960.jpeg.jpg">
 
         <span>
                 <p>Le garage parrot sur toulouse et un garage crée en 2021.</p>
-                <img class="img2" src="images-ECF\S0-un-nouveau-logo-pour-citroen-388873.jpg">
+                <img class="img2" src="../images-ECF/S0-un-nouveau-logo-pour-citroen-388873.jpg">
                 <p>Son propriaitaire et responssable monsieur parrot, avec son exeptise de plus de 15 années propose un service de vente de véhicule neuf et occasions.</p>
-                <img class="img2" src="images-ECF\atelier-groupe-michel-1redimensionner.jpg">
+                <img class="img2" src="../images-ECF/atelier-groupe-michel-1redimensionner.jpg">
                 <p>Monsieur parrot et son équipe propose des véhicules pouvant correspondre a chaqun tout en vous accompagnant dans vos choix afin que vous trouviez la voiture faite pour vous.</p>
-                <img class="img2" src="images-ECF\ouvrir-garage-entretien-reparation-vehicule.jpg">
+                <img class="img2" src="../images-ECF/ouvrir-garage-entretien-reparation-vehicule.jpg">
                 <br>
         </span>
 </body>
