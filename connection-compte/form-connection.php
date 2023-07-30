@@ -1,6 +1,5 @@
 <?php
-session_start();
-require_once('script-de-gestion-de-connection.php');
+
 ?>
 <!DOCTYPE html>
 <html>
