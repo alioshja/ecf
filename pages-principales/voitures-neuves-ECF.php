@@ -19,7 +19,7 @@ require_once ('../connection-compte/script-de-gestion-de-connection.php');
     <nav class="nav">
         <a href="voitures-occasions-ECF.php">Nos voitures occasions.</a>
         <a href="ECF-garage.php">Page principale/connection.</a>
-        <a href="form-connection.php">mon espace.</a>     
+        <a href="../connection-compte/form-connection.php">mon espace.</a>     
         <a href="nos-marques-ECF.php">Nos marques.</a>
         <a href="nous-contacter-ECF.php">Nous contacter et nos adresses.</a>
     </nav>
