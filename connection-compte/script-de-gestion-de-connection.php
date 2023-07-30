@@ -38,12 +38,12 @@ $user = $pdoStatement->fetch();
 if ($user) {
         session_start();
         $_SESSION['user'] = $userr;
-        header('../pages-principales/Location:ECF-garage.php');
+        header('../Location:pages-principales/ECF-garage.php');
     }
     //affichage des erreurs.
 else {
         echo 'ces identifiants sont inconues';
-        header('form-de-connection.php');
+        header('Location:form-de-connection.php');
     // var_dump($user);
     }
 ?>
