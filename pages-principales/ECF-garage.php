@@ -17,15 +17,15 @@ if (session_status() === PHP_SESSION_NONE) {
 if (isset($_SESSION['users'])){
         var_dump($accountType);
         }
-// if ($accountType === 'ouvrier'){
-//         require_once ('bandeau-connection-o.php');
-//         }
-// if ($accountType === 'modo'){
-//         require_once ('bandeau-connection-m.php');
-//         }
-// else {session_destroy();}
-// $session = session_status();
-// var_dump($session);
+if ($accountType === 'ouvrier'){
+        require_once ('bandeau-connection-o.php');
+        }
+if ($accountType === 'modo'){
+        require_once ('bandeau-connection-m.php');
+        }
+else {session_destroy();}
+$session = session_status();
+var_dump($session);
 ?>
 <!DOCTYPE html>
 <html>

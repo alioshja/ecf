@@ -5,6 +5,7 @@
 
 try {
     $dsn = new PDO('mysql:host=localhost;port=3306;dbname=users', username: 'root', password: '');
+    echo 'connection success';
 } 
 catch (PDOException $PODException) {
     echo 'une erreur est survenue, connection a la base de donnée impossible.';
